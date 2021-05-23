@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+td {
+  
+  vertical-align: top;
+}
+
+td .note {
+  position: relative;
+  font-family: monospace;
+  top: 0;
+  right: 0;
+}
+
+td .note.left {
+  text-align: left;
+}
+
+table {
+  height: 100vmin;
+  width: 100vmin;
+  margin: auto;
+  background: #ffffcc;
+  border: 1px solid grey;
+}
+
+tr:nth-child(odd) :nth-child(even) {
+  background: #55ff55;
+}
+
+tr:nth-child(even) :nth-child(odd) {
+  background: #55ff55;
+}
